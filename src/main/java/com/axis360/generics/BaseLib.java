@@ -1,5 +1,7 @@
 package com.axis360.generics;
 
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -14,6 +16,8 @@ public class BaseLib {
 
     //declare WebDriver
     public WebDriver driver;
+    private ExtentReports report;
+    private ExtentTest test;
 
     // BeforeMethod testng annotation
     // to initialize browser and navigate browser to desired link
@@ -86,6 +90,7 @@ public class BaseLib {
         // closes the browser
         driver.close();
         Reporter.log("XXXXXXXXXX Browser Closed XXXXXXXXXXXXXX");
+
 
         // close / stops the driver
         driver.quit();
