@@ -4,7 +4,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.IReporter;
+import org.testng.ITestResult;
 import org.testng.Reporter;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
@@ -58,7 +61,36 @@ public class BaseLib {
             Reporter.log("Edge Launched !", true);
         }
 
+        // maximize window statment
+        driver.manage().window().maximize();
+
+        // Waitstatement for implicitwait for
+        WaitStatementLib.implicitWaitSecs(driver,10);
+
+    }
+
+
+    @AfterMethod
+    public void tearDown(ITestResult result) {
+
+        if(result.isSuccess()) {
+
+
+            Reporter.log("Script Successful !", true);
+        } else {
+            Sc
+        }
+
+        // closes the browser
+        driver.close();
+        Reporter.log("XXXXXXXXXX Browser Closed XXXXXXXXXXXXXX", true);
+
+        // close / stops the driver
+        driver.quit();
+        Reporter.log("Driver closed / Stopped !");
 
     }
 
 }
+
+
