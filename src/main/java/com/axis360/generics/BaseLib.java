@@ -4,7 +4,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.IReporter;
 import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
@@ -28,11 +27,9 @@ public class BaseLib {
             // set key and value
             // for system property
             System.setProperty("webdriver.chrome.driver", "./exefiles/chromedriver.exe");
-
             // instantiate
             // and up casting Chromedriver to Webdriver
             driver = new ChromeDriver();
-
             //Report successful launch
             Reporter.log("Chrome Launched !", true);
 
@@ -40,11 +37,9 @@ public class BaseLib {
             // set key and value
             // for system property
             System.setProperty("webdriver.firefox.driver", "./exefiles/geckodriver.exe");
-
             // instantiate
             // and up casting Firefoxdriver to Webdriver
             driver = new FirefoxDriver();
-
             //Report successful launch
             Reporter.log("Firefox Launched !", true);
 
@@ -52,11 +47,9 @@ public class BaseLib {
             // set key and value
             // for system property
             System.setProperty("webdriver.edge.driver", "./exefiles/MicrosoftWebDriver.exe");
-
             // instantiate
             // and up casting Edgedriver to Webdriver
             driver = new EdgeDriver();
-
             //Report successful launch
             Reporter.log("Edge Launched !", true);
         }
@@ -74,17 +67,13 @@ public class BaseLib {
     public void tearDown(ITestResult result) {
 
         if(result.isSuccess()) {
-
-
-            Reporter.log("Script Successful !", true);
+            // Report script is successful
+            Reporter.log("Script Successful !");
         } else {
-
             // instantiate new ScreenshotLib class
             ScreenshotLib screenshot = new ScreenshotLib();
-
             // get name for failedMethod
             String failedMethod = result.getMethod().getMethodName();
-
             // get screenshot
             ScreenshotLib.getScreenshot(driver, failedMethod);
             Reporter.log("Screenshot taken for -> "+failedMethod);
