@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class LandingPageTest extends BaseLib {
 
     @Parameters("browser")
-    @Test(priority = 0, invocationCount = 2)
+    @Test(priority = 1, invocationCount = 2)
     public void validateLandingPage() {
 
         LandingPage lp = new LandingPage();

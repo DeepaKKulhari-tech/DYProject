@@ -19,11 +19,11 @@ public class BaseLib {
     // to initialize browser and navigate browser to desired link
     @BeforeMethod
     @Parameters("browser") // parameter name "browser"
-    public void setUp(String browseName) {
+    public void setUp(String browserName) {
 
         // Launch browser based on the browserName
         // passed as an argument
-        if(browseName.equalsIgnoreCase("chrome")) {
+        if(browserName.equalsIgnoreCase("chrome")) {
             // set key and value
             // for system property
             System.setProperty("webdriver.chrome.driver", "./exefiles/chromedriver.exe");
@@ -33,10 +33,10 @@ public class BaseLib {
             //Report successful launch
             Reporter.log("Chrome Launched !", true);
 
-        } else if(browseName.equalsIgnoreCase("firefox")) {
+        } else if(browserName.equalsIgnoreCase("firefox")) {
             // set key and value
             // for system property
-            System.setProperty("webdriver.firefox.driver", "./exefiles/geckodriver.exe");
+            System.setProperty("webdriver.gecko.driver", "./exefiles/geckodriver.exe");
             // instantiate
             // and up casting Firefoxdriver to Webdriver
             driver = new FirefoxDriver();
@@ -57,11 +57,12 @@ public class BaseLib {
         // maximize browser window
         driver.manage().window().maximize();
 
-        // Waitstatement for implicitwait for
+        // Waitstatement for implicitwait in seconds
         WaitStatementLib.implicitWaitSecs(driver,10);
 
         // navigate to test site
-        driver.get(GetPropertiesValue.getPropertyValue("demoUrl"));
+//        driver.get(GetPropertiesValue.getPropertyValue("demoURL"));
+        driver.get(GetPropertiesValue.getPropertyValue("magic1URL"));
 
     }
 
