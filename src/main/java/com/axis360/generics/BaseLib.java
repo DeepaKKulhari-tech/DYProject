@@ -54,11 +54,14 @@ public class BaseLib {
             Reporter.log("Edge Launched !", true);
         }
 
-        // maximize window statment
+        // maximize browser window
         driver.manage().window().maximize();
 
         // Waitstatement for implicitwait for
         WaitStatementLib.implicitWaitSecs(driver,10);
+
+        // navigate to test site
+        driver.get(GetPropertiesValue.getPropertyValue("demoUrl"));
 
     }
 
