@@ -78,12 +78,21 @@ public class BaseLib {
 
             Reporter.log("Script Successful !", true);
         } else {
-            Sc
+
+            // instantiate new ScreenshotLib class
+            ScreenshotLib screenshot = new ScreenshotLib();
+
+            // get name for failedMethod
+            String failedMethod = result.getMethod().getMethodName();
+
+            // get screenshot
+            ScreenshotLib.getScreenshot(driver, failedMethod);
+            Reporter.log("Screenshot taken for -> "+failedMethod);
         }
 
         // closes the browser
         driver.close();
-        Reporter.log("XXXXXXXXXX Browser Closed XXXXXXXXXXXXXX", true);
+        Reporter.log("XXXXXXXXXX Browser Closed XXXXXXXXXXXXXX");
 
         // close / stops the driver
         driver.quit();

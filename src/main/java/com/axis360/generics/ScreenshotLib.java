@@ -1,6 +1,7 @@
 package com.axis360.generics;
 
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
@@ -12,16 +13,27 @@ import java.io.IOException;
 public class ScreenshotLib {
 
 
+    //take screenshot and save under Screenshots folder
     public static void getScreenshot(WebDriver driver, String fileName) {
 
         try{
+            // Eventfire
             EventFiringWebDriver eventFire = new EventFiringWebDriver(driver);
 
             File src = eventFire.getScreenshotAs(OutputType.FILE);
 
-        } catch (WebDriverException | IOException e) {
+            //Create new "screenshot" in "screenshots" directory.
+            File dest = new File("./screenshots/"+fileName+".png");
+
+            //copy file from source to destination
+            FileUtils.copyFile(src, dest);
+
+        } catch (WebDriverException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
             e.printStackTrace();
         }
+
 
     }
 
