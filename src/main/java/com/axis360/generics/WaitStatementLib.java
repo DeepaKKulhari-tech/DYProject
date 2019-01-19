@@ -3,6 +3,7 @@ package com.axis360.generics;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
@@ -34,10 +35,19 @@ public class WaitStatementLib {
     }
 
 
-    // explicitlyWait using WebDriverWait class for visiblity of WebElement element
+    // explicitlyWait using WebDriverWait class for visibility of WebElement element
     public static void explicitlyWaitVisible(WebDriver driver, int timeSecs, WebElement element) {
         //implicitlyWait(), in minutes
         WebDriverWait wait = new WebDriverWait(driver, timeSecs); // driver, timeSecs
-        wait.until(ExpectedCondition.visibilityOf(element)); // element
+        wait.until(ExpectedConditions.visibilityOf(element)); // element
     }
+
+
+    // explicitlyWait using WebDriverWait class for elements to be clickable
+    public static void explicitlyWaitClickable(WebDriver driver, int timeSecs, WebElement element) {
+        //implicitlyWait(), in minutes
+        WebDriverWait wait = new WebDriverWait(driver, timeSecs); // driver, timeSecs
+        wait.until(ExpectedConditions.elementToBeClickable(element)); // element
+    }
+
 }
