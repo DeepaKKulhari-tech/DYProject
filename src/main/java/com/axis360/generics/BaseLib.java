@@ -66,7 +66,7 @@ public class BaseLib {
 
         // navigate to test site
 //        driver.get(GetPropertiesValue.getPropertyValue("demoURL"));
-        driver.get(GetPropertiesValue.getPropertyValue("magic1URL"));
+        driver.get(GetPropertiesValue.getPropertyValue("demoURL"));
 
     }
 

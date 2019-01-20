@@ -8,6 +8,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
+import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.Reporter;
 
@@ -16,13 +17,13 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class ExtentReportLib {
+public class ExtentReportListener implements ITestListener {
 
+    // public Webdriver needs to be declared ??
     private static ExtentReports reports;
     private static ExtentTest test;
 
-    public static void onTestStart(ITestResult result) {
-
+    public void onTestStart(ITestResult result) {
         test = reports.startTest(result.getMethod().getMethodName());
         test.log(LogStatus.INFO,result.getMethod().getMethodName()+"Test Started");
     }
@@ -53,13 +54,22 @@ public class ExtentReportLib {
         Reporter.log("On Test Success within Percentage");
     }
 
-    public static void onStart(ITestContext context) {
+    public void onStart(ITestContext context) {
         reports = new ExtentReports(new SimpleDateFormat("yyyy-MM-dd hh-mm-ss-ms").format(new Date()) + "reports.html");
     }
 
-    public static void onFinish(ITestContext context) {
+    public void onFinish(ITestContext context) {
         reports.endTest(test);
         reports.flush();
+    }
+
+// WIP - implementation of following two methods required ???
+    public void onTestSuccess(ITestResult iTestResult) {
+
+    }
+
+    public void onTestFailure(ITestResult iTestResult) {
+
     }
 
 }
