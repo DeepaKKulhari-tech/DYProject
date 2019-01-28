@@ -61,12 +61,12 @@ public class BaseLib {
         // maximize browser window
         driver.manage().window().maximize();
 
-        // Waitstatement for implicitwait in seconds
-        WaitStatementLib.implicitWaitSecs(driver,10);
-
         // navigate to test site
-//        driver.get(GetPropertiesValue.getPropertyValue("demoURL"));
+        // driver.get(GetPropertiesValue.getPropertyValue("demoURL"));
         driver.get(GetPropertiesValue.getPropertyValue("demoURL"));
+
+        // Waitstatement for implicitwait in seconds
+        WaitStatementLib.implicitWaitSecs(driver,20);
 
     }
 

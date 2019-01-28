@@ -17,4 +17,8 @@ public class LandingPage {
         Reporter.log("Page Title verified", true);
     }
 
+    public static void inValidTitle(WebDriver driver) {
+        Assert.assertEquals(driver.getTitle(), "My Library");
+        Reporter.log("Page Title invalid", true);
+    }
 }
