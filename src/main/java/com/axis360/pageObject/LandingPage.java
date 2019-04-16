@@ -12,7 +12,7 @@ public class LandingPage {
 //    @FindBy()
 //    private WebDriver ;
 
-    public static void validateTitle(WebDriver driver) {
+    public static void validatePageTitle(WebDriver driver) {
         Assert.assertEquals(driver.getTitle(), "My Library");
         Reporter.log("Page Title verified", true);
     }
