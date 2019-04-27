@@ -2,11 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a95085f-fc23-4a7f-bd19-b3c0f96518ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/axis360.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axis360/pageObject/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/axis360/pageObject/LandingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axis360/scripts/LandingPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/axis360/scripts/LandingPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/pageObject/LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/axis360/pageObject/LandingPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/scripts/LandingPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/axis360/scripts/LandingPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/generics/BaseLib.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/generics/ExcelUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/generics/ExtentReportListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/generics/GetPropertiesValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/generics/ScreenshotLib.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/generics/WaitStatementLib.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/pageObject/LandingPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/pageObject/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/pageObject/MyStuffPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/pageObject/SearchPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/pageObject/TitlesPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/scripts/LandingPageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testReports/report_2019-01-20 11-58-50-5850/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testReports/report_2019-01-20 11-59-06-596/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testReports/report_2019-01-20 11-59-57-5957/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testReports/report_2019-01-21 12-33-41-3341/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testReports/report_2019-01-21 12-33-57-3357/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testReports/report_2019-01-21 12-34-54-3454/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testReports/report_2019-01-31 12-38-21-3821/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testReports/report_2019-01-31 12-38-42-3842/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testReports/report_2019-02-07 01-18-47-1847/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testReports/report_2019-02-07 01-19-09-199/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testReports/report_2019-02-07 01-19-55-1955/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testReports/report_2019-02-07 01-21-27-2127/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testReports/report_2019-02-07 01-21-48-2148/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/testReports/report_2019-04-24 05-05-57-557/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testReports/report_2019-02-07 01-21-49-2149/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testReports/report_2019-02-07 01-54-33-5433/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testReports/report_2019-02-07 01-54-54-5454/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testReports/report_2019-02-07 01-55-12-5512/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testReports/report_2019-03-27 03-09-54-954/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/testReports/report_2019-04-24 05-05-41-541/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testReports/report_2019-03-27 03-10-15-1015/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testReports/report_2019-03-27 03-10-26-1026/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/testReports/report_2019-04-24 05-06-06-66/report.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,17 +48,24 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <caret line="67" selection-start-line="67" selection-end-line="67" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state>
               <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
@@ -35,26 +74,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state>
               <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testReports/report_2019-03-27 03-10-26-1026/report.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/axis360/scripts/LandingPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="146">
+              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/axis360/pageObject/LandingPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="15" column="27" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="27" />
+            <state>
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,7 +107,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/axis360/generics/BaseLib.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state>
               <caret line="24" column="15" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -95,6 +125,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>testng</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -107,7 +142,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/axis360/generics/ExcelUtils.java" />
         <option value="$PROJECT_DIR$/config.properties" />
         <option value="$PROJECT_DIR$/LandingPage.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/axis360/pageObject/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/axis360/generics/ExtentReportLib.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/axis360/generics/ExtentReportListener.java" />
@@ -115,6 +149,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/axis360/pageObject/LandingPage.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/axis360/scripts/LandingPageTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -122,20 +157,27 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="axis360" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-5" />
-    <option name="y" value="55" />
-    <option name="width" value="1700" />
-    <option name="height" value="945" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="181" />
+    <option name="y" value="90" />
+    <option name="width" value="1650" />
+    <option name="height" value="927" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -143,6 +185,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,81 +194,16 @@
               <item name="axis360" type="b2602c69:ProjectViewProjectNode" />
               <item name="axis360" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="axis360" type="b2602c69:ProjectViewProjectNode" />
-              <item name="axis360" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="axis360" type="b2602c69:ProjectViewProjectNode" />
-              <item name="axis360" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="axis360" type="b2602c69:ProjectViewProjectNode" />
-              <item name="axis360" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="axis360" type="b2602c69:ProjectViewProjectNode" />
-              <item name="axis360" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="axis360" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="axis360" type="b2602c69:ProjectViewProjectNode" />
-              <item name="axis360" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="axis360" type="462c0819:PsiDirectoryNode" />
-              <item name="generics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="axis360" type="b2602c69:ProjectViewProjectNode" />
-              <item name="axis360" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="axis360" type="462c0819:PsiDirectoryNode" />
-              <item name="pageObject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="axis360" type="b2602c69:ProjectViewProjectNode" />
-              <item name="axis360" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="axis360" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="axis360" type="b2602c69:ProjectViewProjectNode" />
-              <item name="axis360" type="462c0819:PsiDirectoryNode" />
-              <item name="testReports" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="axis360" type="b2602c69:ProjectViewProjectNode" />
-              <item name="axis360" type="462c0819:PsiDirectoryNode" />
-              <item name="testReports" type="462c0819:PsiDirectoryNode" />
-              <item name="report_2019-03-27 03-10-26-1026" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../axis360ts360API" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -301,9 +280,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_deepak_yadav_IdeaProjects_axis360_testng_xml - 2019.01.20 at 11h 35m 24s.xml">
-      <configuration name="C:/Users/deepak.yadav/IdeaProjects/axis360/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_deepak_yadav_IdeaProjects_axis360_testng_xml - 2019.01.20 at 11h 48m 48s.xml">
       <configuration name="C:/Users/deepak.yadav/IdeaProjects/axis360/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -331,6 +307,9 @@
     <history-entry file="C__Users_deepak_yadav_IdeaProjects_axis360_testng_xml - 2019.03.27 at 15h 10m 54s.xml">
       <configuration name="C:/Users/deepak.yadav/IdeaProjects/axis360/testng.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="C__Users_deepak_yadav_IdeaProjects_axis360_testng_xml - 2019.04.24 at 17h 06m 55s.xml">
+      <configuration name="C:/Users/deepak.yadav/IdeaProjects/axis360/testng.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -342,10 +321,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="44" width="1360" height="756" extended-state="0" />
+    <frame x="162" y="42" width="1100" height="618" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25460124" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25766283" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -353,7 +332,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49962434" weight="0.58565736" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49962434" weight="0.5839844" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -361,12 +340,12 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49962434" weight="0.3296875" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5003756" side_tool="true" weight="0.328125" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49962434" weight="0.3247012" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49962434" weight="0.32421875" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" show_stripe_button="false" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.20886551" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.20858896" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
     </layout>
     <layout-to-restore>
@@ -473,12 +452,8 @@
     <entry file="file://$PROJECT_DIR$/testReports/report_2019-01-20 11-34-28-3428/report.html" />
     <entry file="file://$PROJECT_DIR$/testReports/report_2019-01-20 11-34-44-3444/report.html" />
     <entry file="file://$PROJECT_DIR$/testReports/report_2019-01-20 11-34-57-3457/report.html" />
-    <entry file="file://$PROJECT_DIR$/testReports/report_2019-01-20 11-59-57-5957/report.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testReports/report_2019-01-21 12-33-57-3357/report.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/testReports/report_2019-01-20 11-59-57-5957/report.html" />
+    <entry file="file://$PROJECT_DIR$/testReports/report_2019-01-21 12-33-57-3357/report.html" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/axis360/generics/ExtentReportListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-425">
@@ -489,54 +464,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testReports/report_2019-01-20 11-58-50-5850/report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/testReports/report_2019-01-20 11-58-50-5850/report.html" />
     <entry file="file://$PROJECT_DIR$/screenshots/inValidLandingPage.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/testReports/report_2019-03-27 03-10-26-1026/report.html" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state>
           <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state>
           <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testReports/report_2019-03-27 03-10-26-1026/report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/axis360/scripts/LandingPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/axis360/pageObject/LandingPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="27" />
+        <state>
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -545,8 +502,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/axis360/generics/BaseLib.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state>
           <caret line="24" column="15" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/axis360/scripts/LandingPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -610,7 +577,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
