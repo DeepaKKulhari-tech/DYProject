@@ -2,43 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a95085f-fc23-4a7f-bd19-b3c0f96518ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/axis360.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/axis360/generics/SendEmailReport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/generics/BaseLib.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/generics/ExcelUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/generics/ExtentReportListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/generics/GetPropertiesValue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/generics/ScreenshotLib.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/generics/WaitStatementLib.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/pageObject/LandingPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/pageObject/LoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/pageObject/MyStuffPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/pageObject/SearchPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/pageObject/TitlesPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/scripts/LandingPageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testReports/report_2019-01-20 11-58-50-5850/report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testReports/report_2019-01-20 11-59-06-596/report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testReports/report_2019-01-20 11-59-57-5957/report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testReports/report_2019-01-21 12-33-41-3341/report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testReports/report_2019-01-21 12-33-57-3357/report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testReports/report_2019-01-21 12-34-54-3454/report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testReports/report_2019-01-31 12-38-21-3821/report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testReports/report_2019-01-31 12-38-42-3842/report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testReports/report_2019-02-07 01-18-47-1847/report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testReports/report_2019-02-07 01-19-09-199/report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testReports/report_2019-02-07 01-19-55-1955/report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testReports/report_2019-02-07 01-21-27-2127/report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testReports/report_2019-02-07 01-21-48-2148/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/testReports/report_2019-04-24 05-05-57-557/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testReports/report_2019-02-07 01-21-49-2149/report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testReports/report_2019-02-07 01-54-33-5433/report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testReports/report_2019-02-07 01-54-54-5454/report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testReports/report_2019-02-07 01-55-12-5512/report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testReports/report_2019-03-27 03-09-54-954/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/testReports/report_2019-04-24 05-05-41-541/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testReports/report_2019-03-27 03-10-15-1015/report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testReports/report_2019-03-27 03-10-26-1026/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/testReports/report_2019-04-24 05-06-06-66/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/axis360/pageObject/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/axis360/pageObject/LandingPage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,37 +20,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/axis360/generics/ExtentReportListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testng.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="465">
+              <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/axis360/scripts/LandingPageTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/axis360/generics/GetPropertiesValue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            <state relative-caret-position="161">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/axis360/pageObject/LandingPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="105">
+              <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,13 +56,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/axis360/generics/BaseLib.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/axis360/generics/SendEmailReport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="24" column="15" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -144,12 +92,13 @@
         <option value="$PROJECT_DIR$/LandingPage.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/axis360/pageObject/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/axis360/generics/ExtentReportLib.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/axis360/generics/ExtentReportListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/axis360/generics/BaseLib.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/axis360/pageObject/LandingPage.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/axis360/scripts/LandingPageTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/axis360/generics/ExtentReportListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/axis360/pageObject/LandingPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/axis360/generics/SendEmailReport.java" />
       </list>
     </option>
   </component>
@@ -173,11 +122,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="181" />
-    <option name="y" value="90" />
-    <option name="width" value="1650" />
-    <option name="height" value="927" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="24" />
+    <option name="y" value="78" />
+    <option name="width" value="1761" />
+    <option name="height" value="957" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -185,8 +134,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,19 +141,74 @@
               <item name="axis360" type="b2602c69:ProjectViewProjectNode" />
               <item name="axis360" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="axis360" type="b2602c69:ProjectViewProjectNode" />
+              <item name="axis360" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="axis360" type="b2602c69:ProjectViewProjectNode" />
+              <item name="axis360" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="axis360" type="b2602c69:ProjectViewProjectNode" />
+              <item name="axis360" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="axis360" type="b2602c69:ProjectViewProjectNode" />
+              <item name="axis360" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="axis360" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="axis360" type="b2602c69:ProjectViewProjectNode" />
+              <item name="axis360" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="axis360" type="462c0819:PsiDirectoryNode" />
+              <item name="generics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="axis360" type="b2602c69:ProjectViewProjectNode" />
+              <item name="axis360" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="axis360" type="462c0819:PsiDirectoryNode" />
+              <item name="pageObject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="axis360" type="b2602c69:ProjectViewProjectNode" />
+              <item name="axis360" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="axis360" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../axis360ts360API" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -321,10 +323,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="162" y="42" width="1100" height="618" extended-state="0" />
+    <frame x="16" y="52" width="1174" height="638" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25766283" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27280858" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -333,14 +335,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49962434" weight="0.5839844" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39917696" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32960895" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49962434" weight="0.3296875" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5003756" side_tool="true" weight="0.328125" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49962434" weight="0.32421875" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49962434" weight="0.32304525" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" show_stripe_button="false" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -379,16 +381,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/axis360/generics/ScreenshotLib.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/axis360/generics/WaitStatementLib.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
@@ -404,16 +396,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/axis360/generics/GetPropertiesValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -454,16 +436,6 @@
     <entry file="file://$PROJECT_DIR$/testReports/report_2019-01-20 11-34-57-3457/report.html" />
     <entry file="file://$PROJECT_DIR$/testReports/report_2019-01-20 11-59-57-5957/report.html" />
     <entry file="file://$PROJECT_DIR$/testReports/report_2019-01-21 12-33-57-3357/report.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/axis360/generics/ExtentReportListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-425">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testReports/report_2019-01-20 11-58-50-5850/report.html" />
     <entry file="file://$PROJECT_DIR$/screenshots/inValidLandingPage.png">
       <provider selected="true" editor-type-id="images" />
@@ -471,29 +443,29 @@
     <entry file="file://$PROJECT_DIR$/testReports/report_2019-03-27 03-10-26-1026/report.html" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
+        <state relative-caret-position="1072">
           <caret line="67" selection-start-line="67" selection-end-line="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="112">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="176">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/axis360/pageObject/LandingPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/axis360/scripts/LandingPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="80">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -502,18 +474,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/axis360/generics/BaseLib.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="24" column="15" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="15" />
+        <state relative-caret-position="96">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/axis360/scripts/LandingPageTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/axis360/generics/ScreenshotLib.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        <state relative-caret-position="240">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/axis360/generics/ExtentReportListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/axis360/pageObject/LandingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/axis360/generics/SendEmailReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/axis360/generics/GetPropertiesValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -577,6 +586,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

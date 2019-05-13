@@ -10,6 +10,7 @@ import org.testng.Reporter;
 public class LandingPage {
 
 //    @FindBy()
+//
 //    private WebDriver ;
 
     public static void validatePageTitle(WebDriver driver) {
