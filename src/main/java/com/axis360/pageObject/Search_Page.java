@@ -1,4 +1,4 @@
 package com.axis360.pageObject;
 
-public class MyStuffPage {
+public class Search_Page {
 }

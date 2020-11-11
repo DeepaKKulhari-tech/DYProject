@@ -7,7 +7,10 @@ import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 import org.testng.Reporter;
 
-public class LandingPage {
+public class MyLibrary_Page {
+
+
+
 
 //    @FindBy()
 //

@@ -1,6 +1,4 @@
 package com.axis360.pageObject;
 
-public class LoginPage {
-
-
+public class MyStuff_Page {
 }

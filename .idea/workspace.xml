@@ -22,30 +22,59 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a95085f-fc23-4a7f-bd19-b3c0f96518ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="1a95085f-fc23-4a7f-bd19-b3c0f96518ec" name="Default Changelist" comment="New PageObjects added.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/axis360/pageObject/Login_Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/axis360/scripts/AddToRecommendation_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/axis360/scripts/AddToWishlist_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/axis360/scripts/CheckoutLimitReached_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/axis360/scripts/Checkout_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/axis360/scripts/HoldLimitReached_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/axis360/scripts/LoginPIN_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/axis360/scripts/MaxCheckoutLimit_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/axis360/scripts/MaxHoldLimit_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/axis360/scripts/MaxRecommendationLimit_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/axis360/scripts/MenuUI_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/axis360/scripts/MyAccount_CheckoutHistory_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/axis360/scripts/MyAccount_UpdateAutoCheckoutHold_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/axis360/scripts/MyAccount_UpdateDisplayName_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/axis360/scripts/MyAccount_UpdateEmailID_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/axis360/scripts/MyLibraryDedupe_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/axis360/scripts/MyLibraryFormatFilters_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/axis360/scripts/MyStuffUI_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/axis360/scripts/PatronLoggedOut_AddToRecommendation_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/axis360/scripts/PatronLoggedOut_AddToWishList_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/axis360/scripts/PatronLoggedOut_Checkout_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/axis360/scripts/PatronLoggedOut_MenuUI__Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/axis360/scripts/PatronLoggedOut_PlaceOnHold_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/axis360/scripts/PlaceOnHold_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/axis360/scripts/RecommendationLimitReached_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/axis360/scripts/SearchRefineFilter_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/axis360/scripts/Search_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/axis360/scripts/TitleDetailsUI_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/axis360/scripts/WriteAReview_Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/axis360.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/axis360/generics/BaseLib.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/axis360/generics/BaseLib.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axis360/generics/ExtentReportListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/axis360/generics/ExtentReportListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/axis360/generics/ScreenshotLib.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/axis360/generics/ScreenshotLib.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/axis360/generics/WaitStatementLib.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/axis360/generics/WaitStatementLib.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/axis360/pageObject/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/axis360/pageObject/MyLibrary_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/axis360/pageObject/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/axis360/pageObject/MyStuffPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/axis360/pageObject/MyStuff_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/axis360/pageObject/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/axis360/pageObject/Search_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/axis360/pageObject/TitlesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/axis360/pageObject/TitleDetails_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/axis360/scripts/LandingPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/axis360/scripts/MyLibraryUI_Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/generics/BaseLib.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/axis360/generics/BaseLib.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/generics/ExcelUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/axis360/generics/ExcelUtils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/generics/ExtentReportListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/axis360/generics/ExtentReportListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/generics/GetPropertiesValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/axis360/generics/GetPropertiesValue.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/generics/ScreenshotLib.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/axis360/generics/ScreenshotLib.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/generics/WaitStatementLib.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/axis360/generics/WaitStatementLib.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/pageObject/LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/axis360/pageObject/LandingPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/pageObject/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/axis360/pageObject/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/pageObject/MyStuffPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/axis360/pageObject/MyStuffPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/pageObject/SearchPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/axis360/pageObject/SearchPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/pageObject/TitlesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/axis360/pageObject/TitlesPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/scripts/LandingPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/axis360/scripts/LandingPageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testReports/report_2019-04-24 05-05-41-541/report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testReports/report_2019-04-24 05-05-57-557/report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testReports/report_2019-04-24 05-06-06-66/report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testReports/report_2019-05-02 03-20-58-2058/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/pageObject/LandingPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/pageObject/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/pageObject/MyStuffPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/pageObject/SearchPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/pageObject/TitlesPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/axis360/scripts/LandingPageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +102,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2\plugins\maven\lib\maven3" />
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -84,18 +113,21 @@
     </option>
   </component>
   <component name="ProjectId" id="1fUwJi2B7eWToEpRZXIn9ZkSM0K" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/exefiles" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Katalon_Studio/Axis360_API" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -118,18 +150,27 @@
     </configuration>
     <configuration name="C:/Users/deepak.yadav/IdeaProjects/axis360/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="axis360" />
+      <useClassPathOnly />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LandingPageTest.validateLandingPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MyLibraryUI_Test.validateLandingPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="axis360" />
       <option name="PACKAGE_NAME" value="com.axis360.scripts" />
-      <option name="MAIN_CLASS_NAME" value="com.axis360.scripts.LandingPageTest" />
+      <option name="MAIN_CLASS_NAME" value="com.axis360.scripts.MyLibraryUI_Test" />
       <option name="METHOD_NAME" value="validateLandingPage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -138,10 +179,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="TestNG.C:/Users/deepak.yadav/IdeaProjects/axis360/LandingPage.xml" />
+      <item itemvalue="TestNG.C:/Users/deepak.yadav/IdeaProjects/axis360/testng.xml" />
+      <item itemvalue="TestNG.MyLibraryUI_Test.validateLandingPage" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/deepak.yadav/IdeaProjects/axis360/testng.xml" />
-        <item itemvalue="TestNG.LandingPageTest.validateLandingPage" />
+        <item itemvalue="TestNG.MyLibraryUI_Test.validateLandingPage" />
         <item itemvalue="TestNG.C:/Users/deepak.yadav/IdeaProjects/axis360/LandingPage.xml" />
       </list>
     </recent_temporary>
@@ -168,15 +214,6 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -198,26 +235,84 @@
       <screen x="0" y="31" width="1280" height="689" />
     </state>
     <state x="121" y="31" key="#Project_Structure/0.31.1280.689@0.31.1280.689" timestamp="1596287074082" />
-    <state width="1202" height="288" key="GridCell.Tab.0.bottom" timestamp="1596290008447">
+    <state x="223" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604846950850">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="223" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1536.834@0.30.1536.834" timestamp="1604846950850" />
+    <state x="93" y="123" width="1350" height="648" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1604814311416">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="93" y="123" width="1350" height="648" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.30.1536.834@0.30.1536.834" timestamp="1604814311416" />
+    <state x="315" y="136" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1601829285069">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
-    <state width="1202" height="288" key="GridCell.Tab.0.bottom/0.31.1280.689@0.31.1280.689" timestamp="1596290008447" />
-    <state width="1202" height="288" key="GridCell.Tab.0.center" timestamp="1596290008447">
+    <state x="315" y="136" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.31.1280.689@0.31.1280.689" timestamp="1601829285069" />
+    <state x="387" y="321" width="432" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1603688537369">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
-    <state width="1202" height="288" key="GridCell.Tab.0.center/0.31.1280.689@0.31.1280.689" timestamp="1596290008447" />
-    <state width="1202" height="288" key="GridCell.Tab.0.left" timestamp="1596290008447">
+    <state x="387" y="321" width="432" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.31.1280.689@0.31.1280.689" timestamp="1603688537369" />
+    <state x="386" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603522992457">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
-    <state width="1202" height="288" key="GridCell.Tab.0.left/0.31.1280.689@0.31.1280.689" timestamp="1596290008447" />
-    <state width="1202" height="288" key="GridCell.Tab.0.right" timestamp="1596290008447">
+    <state x="386" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.31.1280.689@0.31.1280.689" timestamp="1603522992457" />
+    <state x="415" y="155" key="FileChooserDialogImpl" timestamp="1598092771849">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
-    <state width="1202" height="288" key="GridCell.Tab.0.right/0.31.1280.689@0.31.1280.689" timestamp="1596290008447" />
-    <state x="161" y="31" key="SettingsEditor" timestamp="1596288359653">
+    <state x="415" y="155" key="FileChooserDialogImpl/0.31.1280.689@0.31.1280.689" timestamp="1598092771849" />
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1604903638088">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1604903638088" />
+    <state width="1237" height="199" key="GridCell.Tab.0.bottom/0.31.1280.689@0.31.1280.689" timestamp="1596298990046" />
+    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1604903638086">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="1493" height="223" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1604903638086" />
+    <state width="1237" height="199" key="GridCell.Tab.0.center/0.31.1280.689@0.31.1280.689" timestamp="1596298990046" />
+    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1604903638086">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="1493" height="223" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1604903638086" />
+    <state width="1237" height="199" key="GridCell.Tab.0.left/0.31.1280.689@0.31.1280.689" timestamp="1596298990046" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1604903638087">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="1493" height="223" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1604903638087" />
+    <state width="1237" height="199" key="GridCell.Tab.0.right/0.31.1280.689@0.31.1280.689" timestamp="1596298990046" />
+    <state width="1493" height="264" key="GridCell.Tab.1.bottom" timestamp="1604846249259">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="1493" height="264" key="GridCell.Tab.1.bottom/0.30.1536.834@0.30.1536.834" timestamp="1604846249259" />
+    <state width="1493" height="264" key="GridCell.Tab.1.center" timestamp="1604846249251">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="1493" height="264" key="GridCell.Tab.1.center/0.30.1536.834@0.30.1536.834" timestamp="1604846249251" />
+    <state width="1493" height="264" key="GridCell.Tab.1.left" timestamp="1604846249251">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="1493" height="264" key="GridCell.Tab.1.left/0.30.1536.834@0.30.1536.834" timestamp="1604846249251" />
+    <state width="1493" height="264" key="GridCell.Tab.1.right" timestamp="1604846249259">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="1493" height="264" key="GridCell.Tab.1.right/0.30.1536.834@0.30.1536.834" timestamp="1604846249259" />
+    <state x="118" y="30" key="SettingsEditor" timestamp="1604807813292">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="118" y="30" key="SettingsEditor/0.30.1536.834@0.30.1536.834" timestamp="1604807813292" />
+    <state x="98" y="31" key="SettingsEditor/0.31.1280.689@0.31.1280.689" timestamp="1603643965063" />
+    <state x="243" y="112" key="Vcs.Push.Dialog.v2" timestamp="1596290436536">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
-    <state x="161" y="31" key="SettingsEditor/0.31.1280.689@0.31.1280.689" timestamp="1596288359653" />
+    <state x="243" y="112" key="Vcs.Push.Dialog.v2/0.31.1280.689@0.31.1280.689" timestamp="1596290436536" />
+    <state x="61" y="31" key="new project wizard" timestamp="1603810822757">
+      <screen x="0" y="31" width="1280" height="689" />
+    </state>
+    <state x="61" y="31" key="new project wizard/0.31.1280.689@0.31.1280.689" timestamp="1603810822757" />
+    <state x="451" y="42" width="672" height="678" key="search.everywhere.popup" timestamp="1604809661600">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="451" y="42" width="672" height="678" key="search.everywhere.popup/0.30.1536.834@0.30.1536.834" timestamp="1604809661600" />
+    <state x="376" y="41" key="search.everywhere.popup/0.31.1280.689@0.31.1280.689" timestamp="1596812710783" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

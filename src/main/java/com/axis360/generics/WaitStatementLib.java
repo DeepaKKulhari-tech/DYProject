@@ -50,4 +50,11 @@ public class WaitStatementLib {
         wait.until(ExpectedConditions.elementToBeClickable(element)); // element
     }
 
+    // explicitlyWait using WebDriverWait class for elements to be clickable
+    public static void explicitlyWaitTextVisible(WebDriver driver, WebElement element, String textInElement) {
+        //implicitlyWait(), in minutes
+        WebDriverWait wait = new WebDriverWait(driver, 10000); // driver, timeSecs
+        wait.until(ExpectedConditions.textToBePresentInElement(element, textInElement)); // element
+    }
+
 }
