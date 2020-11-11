@@ -43,7 +43,7 @@ public class Login_Page {
 
     // stores error element
 //    @FindBy(xpath = "//div[@class='login-form-box']/div[@id='loginHeaders']")
-//    @FindBy(xpath = "//*[@id='loginHeaders']")
+   @FindBy(xpath = "//*[@id='loginHeaders']")
     private WebElement loginError;
 
     // store close icon element
@@ -81,7 +81,7 @@ public class Login_Page {
         // click login button
         loginButtonModal.click();
 
-        Thread.sleep(20000);
+        Thread.sleep(10000);
         // Report
         Reporter.log("Clicked on the Login button - Login Modal.");
     }
