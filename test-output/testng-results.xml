@@ -2,22 +2,22 @@
 <testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="74" started-at="2020-11-11T10:47:21Z" finished-at="2020-11-11T10:47:21Z">
+  <suite name="Default suite" duration-ms="83" started-at="2020-11-11T11:36:34Z" finished-at="2020-11-11T11:36:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="74" started-at="2020-11-11T10:47:21Z" finished-at="2020-11-11T10:47:21Z">
+    <test name="Default test" duration-ms="83" started-at="2020-11-11T11:36:34Z" finished-at="2020-11-11T11:36:34Z">
       <class name="com.axis360.scripts.LoginPIN_Test">
-        <test-method status="FAIL" signature="setUp(java.lang.String)[pri:0, instance:com.axis360.scripts.LoginPIN_Test@6fd02e5]" name="setUp" is-config="true" duration-ms="0" started-at="2020-11-11T10:47:21Z" finished-at="2020-11-11T10:47:21Z">
+        <test-method status="FAIL" signature="setUp(java.lang.String)[pri:0, instance:com.axis360.scripts.LoginPIN_Test@6fd02e5]" name="setUp" is-config="true" duration-ms="0" started-at="2020-11-11T11:36:34Z" finished-at="2020-11-11T11:36:34Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'browser' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
-in C:\Users\deepak.kumar\AppData\Local\Temp\testng-eclipse--1784694009\testng-customsuite.xml]]>
+in C:\Users\deepak.kumar\AppData\Local\Temp\testng-eclipse-820772763\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'browser' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
-in C:\Users\deepak.kumar\AppData\Local\Temp\testng-eclipse--1784694009\testng-customsuite.xml
+in C:\Users\deepak.kumar\AppData\Local\Temp\testng-eclipse-820772763\testng-customsuite.xml
 at org.testng.internal.Parameters.createParams(Parameters.java:290)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
 at org.testng.internal.Parameters.createParameters(Parameters.java:620)
@@ -49,17 +49,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="validateInvalidPIN()[pri:0, instance:com.axis360.scripts.LoginPIN_Test@6fd02e5]" name="validateInvalidPIN" duration-ms="0" started-at="2020-11-11T10:47:21Z" finished-at="2020-11-11T10:47:21Z">
+        <test-method status="SKIP" signature="validateInvalidPIN()[pri:0, instance:com.axis360.scripts.LoginPIN_Test@6fd02e5]" name="validateInvalidPIN" duration-ms="0" started-at="2020-11-11T11:36:34Z" finished-at="2020-11-11T11:36:34Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'browser' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
-in C:\Users\deepak.kumar\AppData\Local\Temp\testng-eclipse--1784694009\testng-customsuite.xml]]>
+in C:\Users\deepak.kumar\AppData\Local\Temp\testng-eclipse-820772763\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'browser' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
-in C:\Users\deepak.kumar\AppData\Local\Temp\testng-eclipse--1784694009\testng-customsuite.xml
+in C:\Users\deepak.kumar\AppData\Local\Temp\testng-eclipse-820772763\testng-customsuite.xml
 at org.testng.internal.Parameters.createParams(Parameters.java:290)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
 at org.testng.internal.Parameters.createParameters(Parameters.java:620)
@@ -91,7 +91,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateInvalidPIN -->
-        <test-method status="SKIP" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.axis360.scripts.LoginPIN_Test@6fd02e5]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-11-11T10:47:21Z" finished-at="2020-11-11T10:47:21Z">
+        <test-method status="SKIP" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.axis360.scripts.LoginPIN_Test@6fd02e5]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-11-11T11:36:34Z" finished-at="2020-11-11T11:36:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

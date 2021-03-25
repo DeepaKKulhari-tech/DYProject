@@ -22,7 +22,7 @@ public class LoginPIN_Test extends BaseLib {
 //
 //    }
 
-    @Parameters("browser")
+   
     @Test(priority = 0, invocationCount = 1)
     public void validateInvalidPIN() throws InterruptedException {
 
